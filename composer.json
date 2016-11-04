@@ -1,0 +1,21 @@
+{
+    "name": "hwmarcos/tags",
+    "description": "Demo Package",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Helder Willian",
+            "email": "helderwmarcos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4":{
+            "Hwmarcos\\Tags\\":"src/"
+        }
+    }
+}
